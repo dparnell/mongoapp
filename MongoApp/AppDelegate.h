@@ -10,6 +10,12 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong) NSTask* mongodb;
+@property (assign) IBOutlet NSMenu *the_menu;
 @property (assign) IBOutlet NSWindow *window;
+@property (readonly) BOOL mongo_running;
+
+- (IBAction) startMongoDB:(id)sender;
+- (IBAction) stopMongoDB:(id)sender;
 
 @end

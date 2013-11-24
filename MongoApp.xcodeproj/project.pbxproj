@@ -18,6 +18,23 @@
 		655DF4A91840A50F000ACE19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655DF4881840A50F000ACE19 /* Cocoa.framework */; };
 		655DF4B11840A50F000ACE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4AF1840A50F000ACE19 /* InfoPlist.strings */; };
 		655DF4B31840A50F000ACE19 /* MongoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655DF4B21840A50F000ACE19 /* MongoAppTests.m */; };
+		655DF4E61841AB60000ACE19 /* GNU-AGPL-3.0 in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4D51841AB60000ACE19 /* GNU-AGPL-3.0 */; };
+		655DF4E71841AB60000ACE19 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4D61841AB60000ACE19 /* README */; };
+		655DF4E81841AB60000ACE19 /* THIRD-PARTY-NOTICES in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4D71841AB60000ACE19 /* THIRD-PARTY-NOTICES */; };
+		655DF5101841AC06000ACE19 /* bsondump in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4C71841AB60000ACE19 /* bsondump */; };
+		655DF5111841AC06000ACE19 /* mongo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4C81841AB60000ACE19 /* mongo */; };
+		655DF5121841AC06000ACE19 /* mongod in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4C91841AB60000ACE19 /* mongod */; };
+		655DF5131841AC06000ACE19 /* mongodump in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CA1841AB60000ACE19 /* mongodump */; };
+		655DF5141841AC06000ACE19 /* mongoexport in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CB1841AB60000ACE19 /* mongoexport */; };
+		655DF5151841AC06000ACE19 /* mongofiles in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CC1841AB60000ACE19 /* mongofiles */; };
+		655DF5161841AC06000ACE19 /* mongoimport in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CD1841AB60000ACE19 /* mongoimport */; };
+		655DF5171841AC06000ACE19 /* mongooplog in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CE1841AB60000ACE19 /* mongooplog */; };
+		655DF5181841AC06000ACE19 /* mongoperf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4CF1841AB60000ACE19 /* mongoperf */; };
+		655DF5191841AC06000ACE19 /* mongorestore in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4D01841AB60000ACE19 /* mongorestore */; };
+		655DF51A1841AC06000ACE19 /* mongos in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4D11841AB60000ACE19 /* mongos */; };
+		655DF51B1841AC06000ACE19 /* mongosniff in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4D21841AB60000ACE19 /* mongosniff */; };
+		655DF51C1841AC06000ACE19 /* mongostat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4D31841AB60000ACE19 /* mongostat */; };
+		655DF51D1841AC06000ACE19 /* mongotop in CopyFiles */ = {isa = PBXBuildFile; fileRef = 655DF4D41841AB60000ACE19 /* mongotop */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +46,32 @@
 			remoteInfo = MongoApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		655DF4C41841495A000ACE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = bin;
+			dstSubfolderSpec = 7;
+			files = (
+				655DF5101841AC06000ACE19 /* bsondump in CopyFiles */,
+				655DF5111841AC06000ACE19 /* mongo in CopyFiles */,
+				655DF5121841AC06000ACE19 /* mongod in CopyFiles */,
+				655DF5131841AC06000ACE19 /* mongodump in CopyFiles */,
+				655DF5141841AC06000ACE19 /* mongoexport in CopyFiles */,
+				655DF5151841AC06000ACE19 /* mongofiles in CopyFiles */,
+				655DF5161841AC06000ACE19 /* mongoimport in CopyFiles */,
+				655DF5171841AC06000ACE19 /* mongooplog in CopyFiles */,
+				655DF5181841AC06000ACE19 /* mongoperf in CopyFiles */,
+				655DF5191841AC06000ACE19 /* mongorestore in CopyFiles */,
+				655DF51A1841AC06000ACE19 /* mongos in CopyFiles */,
+				655DF51B1841AC06000ACE19 /* mongosniff in CopyFiles */,
+				655DF51C1841AC06000ACE19 /* mongostat in CopyFiles */,
+				655DF51D1841AC06000ACE19 /* mongotop in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		655DF4851840A50F000ACE19 /* MongoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +93,24 @@
 		655DF4AE1840A50F000ACE19 /* MongoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MongoAppTests-Info.plist"; sourceTree = "<group>"; };
 		655DF4B01840A50F000ACE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		655DF4B21840A50F000ACE19 /* MongoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongoAppTests.m; sourceTree = "<group>"; };
+		655DF4C21840AE6F000ACE19 /* MongoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MongoApp.entitlements; sourceTree = "<group>"; };
+		655DF4C71841AB60000ACE19 /* bsondump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bsondump; sourceTree = "<group>"; };
+		655DF4C81841AB60000ACE19 /* mongo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongo; sourceTree = "<group>"; };
+		655DF4C91841AB60000ACE19 /* mongod */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongod; sourceTree = "<group>"; };
+		655DF4CA1841AB60000ACE19 /* mongodump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongodump; sourceTree = "<group>"; };
+		655DF4CB1841AB60000ACE19 /* mongoexport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongoexport; sourceTree = "<group>"; };
+		655DF4CC1841AB60000ACE19 /* mongofiles */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongofiles; sourceTree = "<group>"; };
+		655DF4CD1841AB60000ACE19 /* mongoimport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongoimport; sourceTree = "<group>"; };
+		655DF4CE1841AB60000ACE19 /* mongooplog */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongooplog; sourceTree = "<group>"; };
+		655DF4CF1841AB60000ACE19 /* mongoperf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongoperf; sourceTree = "<group>"; };
+		655DF4D01841AB60000ACE19 /* mongorestore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongorestore; sourceTree = "<group>"; };
+		655DF4D11841AB60000ACE19 /* mongos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongos; sourceTree = "<group>"; };
+		655DF4D21841AB60000ACE19 /* mongosniff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongosniff; sourceTree = "<group>"; };
+		655DF4D31841AB60000ACE19 /* mongostat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongostat; sourceTree = "<group>"; };
+		655DF4D41841AB60000ACE19 /* mongotop */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mongotop; sourceTree = "<group>"; };
+		655DF4D51841AB60000ACE19 /* GNU-AGPL-3.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "GNU-AGPL-3.0"; path = "mongo/mongodb/GNU-AGPL-3.0"; sourceTree = "<group>"; };
+		655DF4D61841AB60000ACE19 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = mongo/mongodb/README; sourceTree = "<group>"; };
+		655DF4D71841AB60000ACE19 /* THIRD-PARTY-NOTICES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "THIRD-PARTY-NOTICES"; path = "mongo/mongodb/THIRD-PARTY-NOTICES"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +137,7 @@
 		655DF47C1840A50F000ACE19 = {
 			isa = PBXGroup;
 			children = (
+				655DF4C51841AAD3000ACE19 /* mongodb */,
 				655DF48E1840A50F000ACE19 /* MongoApp */,
 				655DF4AC1840A50F000ACE19 /* MongoAppTests */,
 				655DF4871840A50F000ACE19 /* Frameworks */,
@@ -115,6 +177,7 @@
 		655DF48E1840A50F000ACE19 /* MongoApp */ = {
 			isa = PBXGroup;
 			children = (
+				655DF4C21840AE6F000ACE19 /* MongoApp.entitlements */,
 				655DF49A1840A50F000ACE19 /* AppDelegate.h */,
 				655DF49B1840A50F000ACE19 /* AppDelegate.m */,
 				655DF49D1840A50F000ACE19 /* MainMenu.xib */,
@@ -154,6 +217,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		655DF4C51841AAD3000ACE19 /* mongodb */ = {
+			isa = PBXGroup;
+			children = (
+				655DF4C61841AB60000ACE19 /* bin */,
+				655DF4D51841AB60000ACE19 /* GNU-AGPL-3.0 */,
+				655DF4D61841AB60000ACE19 /* README */,
+				655DF4D71841AB60000ACE19 /* THIRD-PARTY-NOTICES */,
+			);
+			name = mongodb;
+			sourceTree = "<group>";
+		};
+		655DF4C61841AB60000ACE19 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				655DF4C71841AB60000ACE19 /* bsondump */,
+				655DF4C81841AB60000ACE19 /* mongo */,
+				655DF4C91841AB60000ACE19 /* mongod */,
+				655DF4CA1841AB60000ACE19 /* mongodump */,
+				655DF4CB1841AB60000ACE19 /* mongoexport */,
+				655DF4CC1841AB60000ACE19 /* mongofiles */,
+				655DF4CD1841AB60000ACE19 /* mongoimport */,
+				655DF4CE1841AB60000ACE19 /* mongooplog */,
+				655DF4CF1841AB60000ACE19 /* mongoperf */,
+				655DF4D01841AB60000ACE19 /* mongorestore */,
+				655DF4D11841AB60000ACE19 /* mongos */,
+				655DF4D21841AB60000ACE19 /* mongosniff */,
+				655DF4D31841AB60000ACE19 /* mongostat */,
+				655DF4D41841AB60000ACE19 /* mongotop */,
+			);
+			name = bin;
+			path = mongo/mongodb/bin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 655DF4B61840A50F000ACE19 /* Build configuration list for PBXNativeTarget "MongoApp" */;
 			buildPhases = (
+				655DF4C31840BC0A000ACE19 /* ShellScript */,
 				655DF4811840A50F000ACE19 /* Sources */,
 				655DF4821840A50F000ACE19 /* Frameworks */,
 				655DF4831840A50F000ACE19 /* Resources */,
+				655DF4C41841495A000ACE19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -201,6 +299,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Daniel Parnell";
 				TargetAttributes = {
+					655DF4841840A50F000ACE19 = {
+						DevelopmentTeam = AP4EL24GMZ;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					655DF4A51840A50F000ACE19 = {
 						TestTargetID = 655DF4841840A50F000ACE19;
 					};
@@ -230,10 +336,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655DF4E81841AB60000ACE19 /* THIRD-PARTY-NOTICES in Resources */,
+				655DF4E71841AB60000ACE19 /* README in Resources */,
 				655DF4931840A50F000ACE19 /* InfoPlist.strings in Resources */,
 				655DF4A11840A50F000ACE19 /* Images.xcassets in Resources */,
 				655DF4991840A50F000ACE19 /* Credits.rtf in Resources */,
 				655DF49F1840A50F000ACE19 /* MainMenu.xib in Resources */,
+				655DF4E61841AB60000ACE19 /* GNU-AGPL-3.0 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +355,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655DF4C31840BC0A000ACE19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "MONGO_DB_VERSION=2.4.8\nMONGO_FILE=mongodb-osx-x86_64-$MONGO_DB_VERSION.tgz\nMONGO_URL=http://fastdl.mongodb.org/osx/$MONGO_FILE\nMONGO_DIR=$SRCROOT/mongo\nMONGO_TAR_FILE=$MONGO_DIR/$MONGO_FILE\n\necho \"Checking if $MONGO_TAR_FILE exists\"\nif [[ ! -a $MONGO_TAR_FILE ]]; then\n    echo \"Downloading $MONGO_FILE via $MONGO_URL\"\n    curl $MONGO_URL -o $MONGO_TAR_FILE\n\n    cd $MONGO_DIR\n\n    tar zxvf $MONGO_FILE\n    mv mongodb-osx-x86_64-$MONGO_DB_VERSION mondodb\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		655DF4811840A50F000ACE19 /* Sources */ = {
@@ -383,10 +508,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MongoApp/MongoApp.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MongoApp/MongoApp-Prefix.pch";
 				INFOPLIST_FILE = "MongoApp/MongoApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,10 +524,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MongoApp/MongoApp.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MongoApp/MongoApp-Prefix.pch";
 				INFOPLIST_FILE = "MongoApp/MongoApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
