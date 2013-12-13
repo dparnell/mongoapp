@@ -21,23 +21,23 @@
 		655DF4A91840A50F000ACE19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655DF4881840A50F000ACE19 /* Cocoa.framework */; };
 		655DF4B11840A50F000ACE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4AF1840A50F000ACE19 /* InfoPlist.strings */; };
 		655DF4B31840A50F000ACE19 /* MongoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655DF4B21840A50F000ACE19 /* MongoAppTests.m */; };
-		65B277A7185AA2DF0035F9DD /* bsondump in Resources */ = {isa = PBXBuildFile; fileRef = 65B27799185AA2DF0035F9DD /* bsondump */; };
-		65B277A8185AA2DF0035F9DD /* mongo in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779A185AA2DF0035F9DD /* mongo */; };
-		65B277A9185AA2DF0035F9DD /* mongod in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779B185AA2DF0035F9DD /* mongod */; };
-		65B277AA185AA2DF0035F9DD /* mongodump in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779C185AA2DF0035F9DD /* mongodump */; };
-		65B277AB185AA2DF0035F9DD /* mongoexport in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779D185AA2DF0035F9DD /* mongoexport */; };
-		65B277AC185AA2DF0035F9DD /* mongofiles in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779E185AA2DF0035F9DD /* mongofiles */; };
-		65B277AD185AA2DF0035F9DD /* mongoimport in Resources */ = {isa = PBXBuildFile; fileRef = 65B2779F185AA2DF0035F9DD /* mongoimport */; };
-		65B277AE185AA2DF0035F9DD /* mongooplog in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A0185AA2DF0035F9DD /* mongooplog */; };
-		65B277AF185AA2DF0035F9DD /* mongoperf in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A1185AA2DF0035F9DD /* mongoperf */; };
-		65B277B0185AA2DF0035F9DD /* mongorestore in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A2185AA2DF0035F9DD /* mongorestore */; };
-		65B277B1185AA2DF0035F9DD /* mongos in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A3185AA2DF0035F9DD /* mongos */; };
-		65B277B2185AA2DF0035F9DD /* mongosniff in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A4185AA2DF0035F9DD /* mongosniff */; };
-		65B277B3185AA2DF0035F9DD /* mongostat in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A5185AA2DF0035F9DD /* mongostat */; };
-		65B277B4185AA2DF0035F9DD /* mongotop in Resources */ = {isa = PBXBuildFile; fileRef = 65B277A6185AA2DF0035F9DD /* mongotop */; };
 		65B277B8185AA2EC0035F9DD /* GNU-AGPL-3.0 in Resources */ = {isa = PBXBuildFile; fileRef = 65B277B5185AA2EC0035F9DD /* GNU-AGPL-3.0 */; };
 		65B277B9185AA2EC0035F9DD /* README in Resources */ = {isa = PBXBuildFile; fileRef = 65B277B6185AA2EC0035F9DD /* README */; };
 		65B277BA185AA2EC0035F9DD /* THIRD-PARTY-NOTICES in Resources */ = {isa = PBXBuildFile; fileRef = 65B277B7185AA2EC0035F9DD /* THIRD-PARTY-NOTICES */; };
+		65B277BB185AA41C0035F9DD /* bsondump in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B27799185AA2DF0035F9DD /* bsondump */; };
+		65B277BC185AA41C0035F9DD /* mongo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779A185AA2DF0035F9DD /* mongo */; };
+		65B277BD185AA41C0035F9DD /* mongod in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779B185AA2DF0035F9DD /* mongod */; };
+		65B277BE185AA41C0035F9DD /* mongodump in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779C185AA2DF0035F9DD /* mongodump */; };
+		65B277BF185AA41C0035F9DD /* mongoexport in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779D185AA2DF0035F9DD /* mongoexport */; };
+		65B277C0185AA41C0035F9DD /* mongofiles in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779E185AA2DF0035F9DD /* mongofiles */; };
+		65B277C1185AA41C0035F9DD /* mongoimport in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2779F185AA2DF0035F9DD /* mongoimport */; };
+		65B277C2185AA41C0035F9DD /* mongooplog in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A0185AA2DF0035F9DD /* mongooplog */; };
+		65B277C3185AA41C0035F9DD /* mongoperf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A1185AA2DF0035F9DD /* mongoperf */; };
+		65B277C4185AA41C0035F9DD /* mongorestore in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A2185AA2DF0035F9DD /* mongorestore */; };
+		65B277C5185AA41C0035F9DD /* mongos in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A3185AA2DF0035F9DD /* mongos */; };
+		65B277C6185AA41C0035F9DD /* mongosniff in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A4185AA2DF0035F9DD /* mongosniff */; };
+		65B277C7185AA41C0035F9DD /* mongostat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A5185AA2DF0035F9DD /* mongostat */; };
+		65B277C8185AA41C0035F9DD /* mongotop in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B277A6185AA2DF0035F9DD /* mongotop */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +57,20 @@
 			dstPath = bin;
 			dstSubfolderSpec = 7;
 			files = (
+				65B277BB185AA41C0035F9DD /* bsondump in CopyFiles */,
+				65B277BC185AA41C0035F9DD /* mongo in CopyFiles */,
+				65B277BD185AA41C0035F9DD /* mongod in CopyFiles */,
+				65B277BE185AA41C0035F9DD /* mongodump in CopyFiles */,
+				65B277BF185AA41C0035F9DD /* mongoexport in CopyFiles */,
+				65B277C0185AA41C0035F9DD /* mongofiles in CopyFiles */,
+				65B277C1185AA41C0035F9DD /* mongoimport in CopyFiles */,
+				65B277C2185AA41C0035F9DD /* mongooplog in CopyFiles */,
+				65B277C3185AA41C0035F9DD /* mongoperf in CopyFiles */,
+				65B277C4185AA41C0035F9DD /* mongorestore in CopyFiles */,
+				65B277C5185AA41C0035F9DD /* mongos in CopyFiles */,
+				65B277C6185AA41C0035F9DD /* mongosniff in CopyFiles */,
+				65B277C7185AA41C0035F9DD /* mongostat in CopyFiles */,
+				65B277C8185AA41C0035F9DD /* mongotop in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,27 +355,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B277AE185AA2DF0035F9DD /* mongooplog in Resources */,
 				655A0E9418428D3A00F285DF /* about.html in Resources */,
-				65B277A8185AA2DF0035F9DD /* mongo in Resources */,
-				65B277AA185AA2DF0035F9DD /* mongodump in Resources */,
-				65B277B0185AA2DF0035F9DD /* mongorestore in Resources */,
 				65B277B8185AA2EC0035F9DD /* GNU-AGPL-3.0 in Resources */,
 				65B277B9185AA2EC0035F9DD /* README in Resources */,
-				65B277B2185AA2DF0035F9DD /* mongosniff in Resources */,
-				65B277AB185AA2DF0035F9DD /* mongoexport in Resources */,
-				65B277A9185AA2DF0035F9DD /* mongod in Resources */,
 				655A0E9718428D7100F285DF /* AboutWindow.xib in Resources */,
-				65B277AD185AA2DF0035F9DD /* mongoimport in Resources */,
-				65B277B1185AA2DF0035F9DD /* mongos in Resources */,
-				65B277B3185AA2DF0035F9DD /* mongostat in Resources */,
-				65B277A7185AA2DF0035F9DD /* bsondump in Resources */,
 				65B277BA185AA2EC0035F9DD /* THIRD-PARTY-NOTICES in Resources */,
-				65B277B4185AA2DF0035F9DD /* mongotop in Resources */,
 				655DF4931840A50F000ACE19 /* InfoPlist.strings in Resources */,
-				65B277AC185AA2DF0035F9DD /* mongofiles in Resources */,
 				655DF4A11840A50F000ACE19 /* Images.xcassets in Resources */,
-				65B277AF185AA2DF0035F9DD /* mongoperf in Resources */,
 				655DF49F1840A50F000ACE19 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
