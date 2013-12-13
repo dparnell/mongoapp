@@ -15,6 +15,7 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (readonly) BOOL mongo_running;
 
+- (IBAction) showAdminInterface:(id)sender;
 - (IBAction) startMongoDB:(id)sender;
 - (IBAction) stopMongoDB:(id)sender;
 - (IBAction) about:(id)sender;

@@ -23,7 +23,20 @@
                 <menuItem title="Listening on port 27017" enabled="NO" id="VCR-59-YpS">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <binding destination="494" name="hidden" keyPath="self.mongo_running" id="NIz-0r-Fyy">
+                        <binding destination="494" name="enabled" keyPath="self.mongo_running" id="xuL-bp-eIn"/>
+                        <binding destination="494" name="hidden" keyPath="self.mongo_running" previousBinding="xuL-bp-eIn" id="AKA-e4-dYL">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </menuItem>
+                <menuItem title="Admin interface on port 28017" id="768-oe-S0c">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showAdminInterface:" target="494" id="sJI-mq-cZP"/>
+                        <binding destination="494" name="enabled" keyPath="self.mongo_running" id="dhp-te-oFN"/>
+                        <binding destination="494" name="hidden" keyPath="self.mongo_running" previousBinding="dhp-te-oFN" id="Lv6-RF-2TX">
                             <dictionary key="options">
                                 <string key="NSValueTransformerName">NSNegateBoolean</string>
                             </dictionary>

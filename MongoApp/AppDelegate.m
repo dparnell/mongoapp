@@ -61,6 +61,10 @@
 #pragma mark -
 #pragma mark Actions
 
+- (IBAction) showAdminInterface:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString: @"http://localhost:28017/"]];
+}
+
 - (IBAction)startMongoDB:(id)sender {
     if(!_mongodb) {
         __block AppDelegate* this = self;
@@ -69,7 +73,7 @@
         
         _mongodb = [[NSTask alloc] init];
         _mongodb.launchPath = [resource_path stringByAppendingPathComponent: @"bin/mongod"];
-        _mongodb.arguments = [NSArray arrayWithObjects: @"--nounixsocket", @"--dbpath", data_path, nil];
+        _mongodb.arguments = [NSArray arrayWithObjects: @"--rest", @"--nounixsocket", @"--dbpath", data_path, nil];
         
         [_mongodb setTerminationHandler:^(NSTask *task) {
             [this willChangeValueForKey: @"mongo_running"];
