@@ -20,6 +20,25 @@
         <customObject id="420" customClass="NSFontManager"/>
         <menu id="PtB-ky-qCi">
             <items>
+                <menuItem title="Listening on port 27017" enabled="NO" id="VCR-59-YpS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <binding destination="494" name="hidden" keyPath="self.mongo_running" id="NIz-0r-Fyy">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="Ca3-Pl-m15">
+                    <connections>
+                        <binding destination="494" name="hidden" keyPath="self.mongo_running" id="2NH-Z9-6of">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </menuItem>
                 <menuItem title="Start" id="Yiz-ZZ-Opj">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
@@ -42,7 +61,7 @@
                 <menuItem title="About" id="96J-6Q-AHg">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="orderFrontStandardAboutPanel:" target="-3" id="nrl-7w-7Ll"/>
+                        <action selector="about:" target="494" id="hv0-qn-hur"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="TnK-je-is2"/>

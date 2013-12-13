@@ -17,5 +17,6 @@
 
 - (IBAction) startMongoDB:(id)sender;
 - (IBAction) stopMongoDB:(id)sender;
+- (IBAction) about:(id)sender;
 
 @end

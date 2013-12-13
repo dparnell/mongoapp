@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AboutWindowWindowController.h"
 
 @implementation AppDelegate {
     __strong NSStatusItem* status_item;
+    __strong AboutWindowWindowController* about;
 }
 
 - (NSURL*)applicationDirectory {
@@ -84,6 +86,18 @@
 - (IBAction)stopMongoDB:(id)sender {
     [_mongodb terminate];
     _mongodb = nil;
+}
+
+- (IBAction) about:(id)sender {
+    if(!about) {
+        about = [[AboutWindowWindowController alloc] initWithWindowNibName: @"AboutWindow"];
+    }
+
+    NSWindow* window = [about window];
+    [window center];
+    [window makeKeyAndOrderFront: self];
+    [window setLevel: NSModalPanelWindowLevel];
+    [[NSApplication sharedApplication] activateIgnoringOtherApps: YES];
 }
 
 #pragma mark -

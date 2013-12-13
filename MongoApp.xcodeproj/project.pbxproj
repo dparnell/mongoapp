@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		655A0E9418428D3A00F285DF /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 655A0E9318428D3A00F285DF /* about.html */; };
+		655A0E9718428D7100F285DF /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655A0E9618428D7100F285DF /* AboutWindow.xib */; };
+		655A0E9A18428E1000F285DF /* AboutWindowWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655A0E9918428E1000F285DF /* AboutWindowWindowController.m */; };
+		655A0E9C18428EC000F285DF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A0E9B18428EC000F285DF /* WebKit.framework */; };
 		655DF4891840A50F000ACE19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655DF4881840A50F000ACE19 /* Cocoa.framework */; };
 		655DF4931840A50F000ACE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4911840A50F000ACE19 /* InfoPlist.strings */; };
 		655DF4951840A50F000ACE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655DF4941840A50F000ACE19 /* main.m */; };
-		655DF4991840A50F000ACE19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4971840A50F000ACE19 /* Credits.rtf */; };
 		655DF49C1840A50F000ACE19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655DF49B1840A50F000ACE19 /* AppDelegate.m */; };
 		655DF49F1840A50F000ACE19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655DF49D1840A50F000ACE19 /* MainMenu.xib */; };
 		655DF4A11840A50F000ACE19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655DF4A01840A50F000ACE19 /* Images.xcassets */; };
@@ -74,6 +77,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		655A0E9318428D3A00F285DF /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		655A0E9618428D7100F285DF /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
+		655A0E9818428E1000F285DF /* AboutWindowWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindowWindowController.h; sourceTree = "<group>"; };
+		655A0E9918428E1000F285DF /* AboutWindowWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindowWindowController.m; sourceTree = "<group>"; };
+		655A0E9B18428EC000F285DF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		655DF4851840A50F000ACE19 /* MongoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655DF4881840A50F000ACE19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		655DF48B1840A50F000ACE19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -83,7 +91,6 @@
 		655DF4921840A50F000ACE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		655DF4941840A50F000ACE19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		655DF4961840A50F000ACE19 /* MongoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoApp-Prefix.pch"; sourceTree = "<group>"; };
-		655DF4981840A50F000ACE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		655DF49A1840A50F000ACE19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		655DF49B1840A50F000ACE19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		655DF49E1840A50F000ACE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -118,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655A0E9C18428EC000F285DF /* WebKit.framework in Frameworks */,
 				655DF4891840A50F000ACE19 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +142,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		655A0E9518428D4300F285DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				655DF49D1840A50F000ACE19 /* MainMenu.xib */,
+				655A0E9318428D3A00F285DF /* about.html */,
+				655A0E9618428D7100F285DF /* AboutWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		655DF47C1840A50F000ACE19 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +175,7 @@
 		655DF4871840A50F000ACE19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				655A0E9B18428EC000F285DF /* WebKit.framework */,
 				655DF4881840A50F000ACE19 /* Cocoa.framework */,
 				655DF4A71840A50F000ACE19 /* XCTest.framework */,
 				655DF48A1840A50F000ACE19 /* Other Frameworks */,
@@ -177,10 +196,12 @@
 		655DF48E1840A50F000ACE19 /* MongoApp */ = {
 			isa = PBXGroup;
 			children = (
+				655A0E9518428D4300F285DF /* Resources */,
 				655DF4C21840AE6F000ACE19 /* MongoApp.entitlements */,
 				655DF49A1840A50F000ACE19 /* AppDelegate.h */,
 				655DF49B1840A50F000ACE19 /* AppDelegate.m */,
-				655DF49D1840A50F000ACE19 /* MainMenu.xib */,
+				655A0E9818428E1000F285DF /* AboutWindowWindowController.h */,
+				655A0E9918428E1000F285DF /* AboutWindowWindowController.m */,
 				655DF4A01840A50F000ACE19 /* Images.xcassets */,
 				655DF48F1840A50F000ACE19 /* Supporting Files */,
 			);
@@ -194,7 +215,6 @@
 				655DF4911840A50F000ACE19 /* InfoPlist.strings */,
 				655DF4941840A50F000ACE19 /* main.m */,
 				655DF4961840A50F000ACE19 /* MongoApp-Prefix.pch */,
-				655DF4971840A50F000ACE19 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -336,11 +356,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655A0E9418428D3A00F285DF /* about.html in Resources */,
 				655DF4E81841AB60000ACE19 /* THIRD-PARTY-NOTICES in Resources */,
 				655DF4E71841AB60000ACE19 /* README in Resources */,
+				655A0E9718428D7100F285DF /* AboutWindow.xib in Resources */,
 				655DF4931840A50F000ACE19 /* InfoPlist.strings in Resources */,
 				655DF4A11840A50F000ACE19 /* Images.xcassets in Resources */,
-				655DF4991840A50F000ACE19 /* Credits.rtf in Resources */,
 				655DF49F1840A50F000ACE19 /* MainMenu.xib in Resources */,
 				655DF4E61841AB60000ACE19 /* GNU-AGPL-3.0 in Resources */,
 			);
@@ -377,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655A0E9A18428E1000F285DF /* AboutWindowWindowController.m in Sources */,
 				655DF49C1840A50F000ACE19 /* AppDelegate.m in Sources */,
 				655DF4951840A50F000ACE19 /* main.m in Sources */,
 			);
@@ -407,14 +429,6 @@
 				655DF4921840A50F000ACE19 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		655DF4971840A50F000ACE19 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				655DF4981840A50F000ACE19 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		655DF49D1840A50F000ACE19 /* MainMenu.xib */ = {
@@ -595,6 +609,7 @@
 				655DF4B81840A50F000ACE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		655DF4B91840A50F000ACE19 /* Build configuration list for PBXNativeTarget "MongoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +618,7 @@
 				655DF4BB1840A50F000ACE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
