@@ -101,23 +101,23 @@
 		655DF4B01840A50F000ACE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		655DF4B21840A50F000ACE19 /* MongoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongoAppTests.m; sourceTree = "<group>"; };
 		655DF4C21840AE6F000ACE19 /* MongoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MongoApp.entitlements; sourceTree = "<group>"; };
-		65B27799185AA2DF0035F9DD /* bsondump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bsondump; path = mongo/mondodb/bin/bsondump; sourceTree = "<group>"; };
-		65B2779A185AA2DF0035F9DD /* mongo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongo; path = mongo/mondodb/bin/mongo; sourceTree = "<group>"; };
-		65B2779B185AA2DF0035F9DD /* mongod */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongod; path = mongo/mondodb/bin/mongod; sourceTree = "<group>"; };
-		65B2779C185AA2DF0035F9DD /* mongodump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongodump; path = mongo/mondodb/bin/mongodump; sourceTree = "<group>"; };
-		65B2779D185AA2DF0035F9DD /* mongoexport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoexport; path = mongo/mondodb/bin/mongoexport; sourceTree = "<group>"; };
-		65B2779E185AA2DF0035F9DD /* mongofiles */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongofiles; path = mongo/mondodb/bin/mongofiles; sourceTree = "<group>"; };
-		65B2779F185AA2DF0035F9DD /* mongoimport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoimport; path = mongo/mondodb/bin/mongoimport; sourceTree = "<group>"; };
-		65B277A0185AA2DF0035F9DD /* mongooplog */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongooplog; path = mongo/mondodb/bin/mongooplog; sourceTree = "<group>"; };
-		65B277A1185AA2DF0035F9DD /* mongoperf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoperf; path = mongo/mondodb/bin/mongoperf; sourceTree = "<group>"; };
-		65B277A2185AA2DF0035F9DD /* mongorestore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongorestore; path = mongo/mondodb/bin/mongorestore; sourceTree = "<group>"; };
-		65B277A3185AA2DF0035F9DD /* mongos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongos; path = mongo/mondodb/bin/mongos; sourceTree = "<group>"; };
-		65B277A4185AA2DF0035F9DD /* mongosniff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongosniff; path = mongo/mondodb/bin/mongosniff; sourceTree = "<group>"; };
-		65B277A5185AA2DF0035F9DD /* mongostat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongostat; path = mongo/mondodb/bin/mongostat; sourceTree = "<group>"; };
-		65B277A6185AA2DF0035F9DD /* mongotop */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongotop; path = mongo/mondodb/bin/mongotop; sourceTree = "<group>"; };
-		65B277B5185AA2EC0035F9DD /* GNU-AGPL-3.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "GNU-AGPL-3.0"; path = "mongo/mondodb/GNU-AGPL-3.0"; sourceTree = "<group>"; };
-		65B277B6185AA2EC0035F9DD /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = mongo/mondodb/README; sourceTree = "<group>"; };
-		65B277B7185AA2EC0035F9DD /* THIRD-PARTY-NOTICES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "THIRD-PARTY-NOTICES"; path = "mongo/mondodb/THIRD-PARTY-NOTICES"; sourceTree = "<group>"; };
+		65B27799185AA2DF0035F9DD /* bsondump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bsondump; path = mongo/mongodb/bin/bsondump; sourceTree = "<group>"; };
+		65B2779A185AA2DF0035F9DD /* mongo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongo; path = mongo/mongodb/bin/mongo; sourceTree = "<group>"; };
+		65B2779B185AA2DF0035F9DD /* mongod */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongod; path = mongo/mongodb/bin/mongod; sourceTree = "<group>"; };
+		65B2779C185AA2DF0035F9DD /* mongodump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongodump; path = mongo/mongodb/bin/mongodump; sourceTree = "<group>"; };
+		65B2779D185AA2DF0035F9DD /* mongoexport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoexport; path = mongo/mongodb/bin/mongoexport; sourceTree = "<group>"; };
+		65B2779E185AA2DF0035F9DD /* mongofiles */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongofiles; path = mongo/mongodb/bin/mongofiles; sourceTree = "<group>"; };
+		65B2779F185AA2DF0035F9DD /* mongoimport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoimport; path = mongo/mongodb/bin/mongoimport; sourceTree = "<group>"; };
+		65B277A0185AA2DF0035F9DD /* mongooplog */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongooplog; path = mongo/mongodb/bin/mongooplog; sourceTree = "<group>"; };
+		65B277A1185AA2DF0035F9DD /* mongoperf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongoperf; path = mongo/mongodb/bin/mongoperf; sourceTree = "<group>"; };
+		65B277A2185AA2DF0035F9DD /* mongorestore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongorestore; path = mongo/mongodb/bin/mongorestore; sourceTree = "<group>"; };
+		65B277A3185AA2DF0035F9DD /* mongos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongos; path = mongo/mongodb/bin/mongos; sourceTree = "<group>"; };
+		65B277A4185AA2DF0035F9DD /* mongosniff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongosniff; path = mongo/mongodb/bin/mongosniff; sourceTree = "<group>"; };
+		65B277A5185AA2DF0035F9DD /* mongostat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongostat; path = mongo/mongodb/bin/mongostat; sourceTree = "<group>"; };
+		65B277A6185AA2DF0035F9DD /* mongotop */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mongotop; path = mongo/mongodb/bin/mongotop; sourceTree = "<group>"; };
+		65B277B5185AA2EC0035F9DD /* GNU-AGPL-3.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "GNU-AGPL-3.0"; path = "mongo/mongodb/GNU-AGPL-3.0"; sourceTree = "<group>"; };
+		65B277B6185AA2EC0035F9DD /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = mongo/mongodb/README; sourceTree = "<group>"; };
+		65B277B7185AA2EC0035F9DD /* THIRD-PARTY-NOTICES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "THIRD-PARTY-NOTICES"; path = "mongo/mongodb/THIRD-PARTY-NOTICES"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,7 +388,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "MONGO_DB_VERSION=2.4.8\nMONGO_FILE=mongodb-osx-x86_64-$MONGO_DB_VERSION.tgz\nMONGO_URL=http://fastdl.mongodb.org/osx/$MONGO_FILE\nMONGO_DIR=$SRCROOT/mongo\nMONGO_TAR_FILE=$MONGO_DIR/$MONGO_FILE\n\nmkdir -p $SRCROOT/mongo\n\necho \"Checking if $MONGO_TAR_FILE exists\"\nif [[ ! -a $MONGO_TAR_FILE ]]; then\n    echo \"Downloading $MONGO_FILE via $MONGO_URL\"\n    curl $MONGO_URL -o $MONGO_TAR_FILE\n\n    cd $MONGO_DIR\n\n    tar zxvf $MONGO_FILE\n    mv mongodb-osx-x86_64-$MONGO_DB_VERSION mondodb\nfi\n";
+			shellScript = "MONGO_DB_VERSION=`defaults read $SRCROOT/MongoApp/MongoApp-Info.plist CFBundleShortVersionString`\nMONGO_FILE=mongodb-osx-x86_64-$MONGO_DB_VERSION.tgz\nMONGO_URL=http://fastdl.mongodb.org/osx/$MONGO_FILE\nMONGO_DIR=$SRCROOT/mongo\nMONGO_TAR_FILE=$MONGO_DIR/$MONGO_FILE\n\nmkdir -p $SRCROOT/mongo\n\necho \"Checking if $MONGO_TAR_FILE exists\"\nif [[ ! -a $MONGO_TAR_FILE ]]; then\n    echo \"Downloading $MONGO_FILE via $MONGO_URL\"\n    curl --progress-bar $MONGO_URL -o $MONGO_TAR_FILE\n\n    cd $MONGO_DIR\n\n    rm -rf mongodb\n\n    tar zxvf $MONGO_FILE\n    mv mongodb-osx-x86_64-$MONGO_DB_VERSION mongodb\nfi\n\nMONGO_VERSION_OK=`$MONGO_DIR/mongodb/bin/mongod --version | grep -c v$MONGO_DB_VERSION`\nif [[ $MONGO_VERSION_OK == '0' ]]; then\n  cd $MONGO_DIR\n\n  rm -rf mongodb\n\n  tar zxvf $MONGO_FILE\n  mv mongodb-osx-x86_64-$MONGO_DB_VERSION mongodb\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
